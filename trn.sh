@@ -5,7 +5,7 @@ python train.py \
     --weights yolov5l.pt \
     --data asl_nojz/data.yaml \
     --epochs 300 \
-    --img 320 \
+    --img 640 \
     --device 0 \
     --cache \
     --freeze 10\
