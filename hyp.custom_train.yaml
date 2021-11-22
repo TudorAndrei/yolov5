@@ -24,6 +24,16 @@ iou_t: 0.1
 anchor_t: 2.91
 # anchors: 3.63
 fl_gamma: 0.0
-mosaic: 1.0
-mixup: 0.0
+hsv_h: 0.0
+hsv_s: 0.0
+hsv_v: 0.0
+degrees: 0.0
+translate: 0.0
+scale: 0.0
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.0
+mosaic: 0.9
+mixup: 0.243
 copy_paste: 0.0

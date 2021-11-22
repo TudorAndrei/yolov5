@@ -1,11 +1,11 @@
 #!/bin/sh
 
 python train.py \
-    --batch  16\
+    --batch  64 \
     --weights yolov5s6.pt \
     --data asl_nojz_augmented/data.yaml \
-    --epochs 300 \
-    --img 640 \
+    --epochs 50 \
+    --img 320 \
     --device 0 \
     --cache \
     --freeze 10\
