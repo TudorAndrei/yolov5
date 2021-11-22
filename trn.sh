@@ -3,7 +3,7 @@
 python train.py \
     --batch  16\
     --weights yolov5s6.pt \
-    --data asl_nojz/data.yaml \
+    --data asl_nojz_augmented/data.yaml \
     --epochs 300 \
     --img 640 \
     --device 0 \
